@@ -19,15 +19,34 @@
 .cardContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 100px ;
     padding: 100px;
+    padding-top: 100px;
+}
+.card {
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
-.card {
-    height: 300px;
-    width: 250px;
-    background-color: rgb(253, 253, 253);
+.card > div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.card > div > p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 600;
+}
+
 .cardImg {
     height: 250px;
     width: inherit;
@@ -36,4 +55,17 @@
 .cardImg:hover{
     filter: saturate();
     transition: ease-in 900ms;
+}
+
+@media only screen and (max-width: 800px) {
+    .cardContainer {
+        padding-top: 200px;
+    }
+
+    .title {
+        position: absolute;
+        font-weight: 900;
+        font-size: 110px;
+        padding-left: 20px;
+    }
 }
