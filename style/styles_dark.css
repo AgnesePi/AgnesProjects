@@ -1,0 +1,21 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    background-color: black;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition:ease-in 100ms;
+    color: rgb(42, 142, 42);
+}
