@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: black;
-    color:white;
+    background-color: rgb(26, 26, 26);
+    color: rgb(253, 253, 253);
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(253, 253, 253);    
 }
 
 a:hover {
@@ -21,8 +21,11 @@ a:hover {
 }
 
 nav {
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
 }
 
 .links {
@@ -31,6 +34,10 @@ nav {
     justify-content: flex-end;
 }
 .links > a {
-    padding: 6px;
-    font-weight: 500;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.inUse {
+    text-decoration: underline;
 }
