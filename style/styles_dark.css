@@ -8,6 +8,7 @@
 body {
     background-color: rgb(26, 26, 26);
     color: rgb(253, 253, 253);
+    margin:0px;
 }
 
 a {
@@ -25,7 +26,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position:relative;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .links {

@@ -1,0 +1,10 @@
+.presentation {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: auto;
+    opacity: 80%;
+}
