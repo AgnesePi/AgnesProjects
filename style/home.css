@@ -22,7 +22,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px ;
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 .card {
     width: 250px;
@@ -54,21 +55,25 @@
 }
 .cardImg:hover{
     filter: saturate();
-    transition: ease-in 900ms;
+    transition: ease-in 1000ms;
+    transform: scale(105%);
+    transition-duration: 200ms;
 }
 
 .descriptionContainer{
     display: flex;
     justify-content: center;
-    padding: 20px;
-    /* background-color:rgb(253, 253, 253); */
+    padding: 30px;
+    background-color:rgb(253, 253, 253);
     position: relative;
+
 }
 .descriptionContainer > p{
+    font-size: 20px;
     font-style: italic;
     padding-left: 50px;
     padding-right: 50px;
-    color: rgb(253, 253, 253);
+    color: rgb(26, 26, 26);
 }
 
 
@@ -80,7 +85,7 @@
     .title {
         position: absolute;
         font-weight: 900;
-        font-size: 110px;
+        font-size: 90px;
         padding-left: 20px;
     }
 }

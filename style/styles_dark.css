@@ -47,13 +47,14 @@ nav {
 
 footer {
     height: fit-content;
-    background-color: rgb(253, 253, 253);
-    color: rgb(26, 26, 26);
+    background-color: rgb(18, 18, 18);
+    color: rgb(253, 253, 253);
     padding: 30px;
     display: flex;
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 70px;
+    margin-top:70px;
 }
 
 footer > div > p {
