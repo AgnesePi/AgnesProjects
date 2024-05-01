@@ -23,12 +23,11 @@ a:hover {
 
 nav {
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    position:fixed;
 }
 
 .links {

@@ -1,10 +1,18 @@
 .presentation {
-    background-color: rgb(253, 253, 253);
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
 }
 img {
-    height: auto;
-    opacity: 80%;
+    width: inherit;
+    opacity: 60%;
+}
+.title {
+    position: absolute;
+    font-weight: 900;
+    font-size: 200px;
+    padding-left: 20px;
 }
