@@ -49,10 +49,11 @@ footer {
     height: fit-content;
     background-color: rgb(253, 253, 253);
     color: rgb(26, 26, 26);
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
-    
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 footer > div > p {
