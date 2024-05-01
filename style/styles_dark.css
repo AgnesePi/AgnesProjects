@@ -19,3 +19,18 @@ a:hover {
     transition:ease-in 100ms;
     color: rgb(42, 142, 42);
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.links > a {
+    padding: 6px;
+    font-weight: 500;
+}
