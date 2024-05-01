@@ -9,6 +9,7 @@
 .firstImg {
     width: inherit;
     opacity: 60%;
+    filter:grayscale();
 }
 .title {
     position: absolute;
@@ -21,7 +22,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px ;
-    padding: 100px;
     padding-top: 100px;
 }
 .card {
@@ -57,9 +57,24 @@
     transition: ease-in 900ms;
 }
 
+.descriptionContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background-color:rgb(253, 253, 253); */
+    position: relative;
+}
+.descriptionContainer > p{
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(253, 253, 253);
+}
+
+
 @media only screen and (max-width: 800px) {
     .cardContainer {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .title {
