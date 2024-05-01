@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    transition:ease-in 100ms;
+    transition: ease-in 100ms;
     color: rgb(42, 142, 42);
 }
 
@@ -28,6 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position:fixed;
+    z-index: 1;
 }
 
 .links {

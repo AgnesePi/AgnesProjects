@@ -6,7 +6,7 @@
     padding-top: 50px;
     position: relative;
 }
-img {
+.firstImg {
     width: inherit;
     opacity: 60%;
 }
@@ -15,4 +15,25 @@ img {
     font-weight: 900;
     font-size: 200px;
     padding-left: 20px;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    padding: 100px;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(253, 253, 253);
+}
+.cardImg {
+    height: 250px;
+    width: inherit;
+    filter: grayscale();
+}
+.cardImg:hover{
+    filter: saturate();
+    transition: ease-in 900ms;
 }
