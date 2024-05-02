@@ -16,9 +16,10 @@
     gap: 50px;
 }
 
-.item-list::-webkit-scrollbar {
+.itemList::-webkit-scrollbar {
     display: none;
   }
+
 .artImg{
     height: 500px;
     scroll-snap-align: center;
