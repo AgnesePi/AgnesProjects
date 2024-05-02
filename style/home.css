@@ -8,7 +8,7 @@
 }
 .firstImg {
     width: inherit;
-    opacity: 60%;
+    opacity: 50%;
     filter:grayscale();
 }
 .title {
@@ -16,6 +16,12 @@
     font-weight: 900;
     font-size: 200px;
     padding-left: 20px;
+}
+
+.flowerpres{
+    height: 400px;
+    position:absolute;
+    margin-left: 800px;
 }
 .cardContainer {
     display: flex;

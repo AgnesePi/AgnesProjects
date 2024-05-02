@@ -64,5 +64,8 @@ footer {
 
 footer > div > p {
     margin: 3px;
+}
 
+.flowerlogo {
+    height: 100px;
 }
