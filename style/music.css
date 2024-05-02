@@ -1,0 +1,43 @@
+.albumCard{
+    /* padding-top: 100px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+
+.albumCover {
+    height: 300px;
+}
+.albumCover:hover {
+    transform: scale(105%);
+    transition-duration: 200ms;
+}
+
+.albumDescription {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(26, 26, 26);
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.date {
+    font-weight: 700;
+    margin: 0px;
+}
+
+.albumDescription > a {
+    color: rgb(26, 26, 26);
+}
+.albumDescription > a:hover {
+    color: rgb(42, 142, 42);
+    transition: ease-in 100ms;
+}
+
+.WIP {
+    padding-left: 100px;
+    padding-top: 50px;
+    display:inline-block
+}
