@@ -45,6 +45,10 @@ nav {
     text-decoration: underline;
 }
 
+H1 {
+    font-weight: 800;
+}
+
 footer {
     height: fit-content;
     background-color: rgb(18, 18, 18);

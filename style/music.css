@@ -1,0 +1,14 @@
+.albumCard{
+    padding: 100px;
+    display: flex;
+}
+
+.albumCover {
+    height: 300px;
+}
+
+.albumDescription {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
