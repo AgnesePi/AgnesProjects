@@ -38,6 +38,7 @@
 
 .WIP {
     padding-left: 100px;
-    padding-top: 50px;
-    display:inline-block
+    padding-top: 100px;
+    display:inline-block;
+    padding-bottom: 10px;
 }
