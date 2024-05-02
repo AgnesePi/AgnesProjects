@@ -8,6 +8,10 @@
 .albumCover {
     height: 300px;
 }
+.albumCover:hover {
+    transform: scale(105%);
+    transition-duration: 200ms;
+}
 
 .albumDescription {
     display: flex;

@@ -55,7 +55,6 @@
 }
 .cardImg:hover{
     filter: saturate();
-    transition: ease-in 1000ms;
     transform: scale(105%);
     transition-duration: 200ms;
 }
