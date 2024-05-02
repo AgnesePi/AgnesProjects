@@ -1,3 +1,25 @@
+.container {
+    padding-top: 100px;
+}
+.carousel{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.itemList{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    scroll-behavior:smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory ;
+    gap: 50px;
+}
+
+.item-list::-webkit-scrollbar {
+    display: none;
+  }
 .artImg{
-    height: 200px;
+    height: 500px;
+    scroll-snap-align: center;
 } 
