@@ -7,13 +7,15 @@
 }
 
 .card {
-    
+    width: 300px;
 }
 
 .cardTxt {
     height: 100px;
     background-color: rgb(253, 253, 253);
     padding:0px;
+    width: inherit;
+    max-width: 315px;
 }
 
 .cardTxt > p {
@@ -23,4 +25,5 @@
 
 .card > img {
     height: 300px;
+    width: 300px;
 }
