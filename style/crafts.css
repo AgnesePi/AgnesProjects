@@ -18,7 +18,10 @@
     padding:0px;
     width: inherit;
     max-width: 315px;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
 
 .cardTxt > p {

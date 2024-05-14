@@ -10,3 +10,4 @@ bottoneBack.addEventListener('click', () => {
 bottoneForward.addEventListener('click', () => {
     itemlist.scrollLeft += (itemWitdh + padding)
 })
+
