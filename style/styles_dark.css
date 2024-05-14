@@ -50,6 +50,10 @@ H1 {
     margin: 0px;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 footer {
     height: fit-content;
     background-color: rgb(18, 18, 18);

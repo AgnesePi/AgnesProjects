@@ -1,9 +1,11 @@
-.cardContainer {
-    gap: 50px;
-    padding: 100px;
+.cardContainerCraft {
     padding-top: 200px;
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .card {
@@ -16,14 +18,26 @@
     padding:0px;
     width: inherit;
     max-width: 315px;
+    padding-top: 20px;
 }
 
 .cardTxt > p {
     margin: 0;
     color: rgb(26,26,26);
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card > img {
     height: 300px;
     width: 300px;
+    filter: grayscale();
+}
+
+.card > img:hover {
+    filter: saturate();
+    transform: scale(105%);
+    transition-duration: 200ms;
 }
