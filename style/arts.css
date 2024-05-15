@@ -59,7 +59,6 @@
 
 .slideshow {
     height: 500px;
-    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,17 +68,17 @@
 .slide {
     height: 500px;
     width: 500px;
-    background-color: rgb(253, 253, 253);
     display: none;
 }
 .immagine {
-    height: 500px;
+    height: 600px;
     width: inherit;
     display: flex;
     justify-content: center;
 }
 
 .punti{
+    padding-top: 100px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -91,5 +90,10 @@
     display: block;
     background-color:rgb(253, 253, 253);
     border-radius: 50%;
-    cursor: pointer;
+}
+
+.punto:hover {
+    background-color: rgb(42, 142, 42);
+    transition: ease-in 200ms;
+    cursor:pointer;
 }
