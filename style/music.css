@@ -2,9 +2,14 @@
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
+    height: fit-content;
 }
 
 .albumCover {
+    max-height: 300px;
+}
+
+.albumCover > img {
     height: 300px;
 }
 .albumCover:hover {
@@ -20,7 +25,6 @@
     color: rgb(26, 26, 26);
     padding-top: 50px;
     padding-right: 50px;
-    max-height: 250px;
 }
 
 .date {
@@ -41,4 +45,20 @@
     padding-top: 100px;
     display:inline-block;
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .albumCard {
+        flex-direction: column;
+    }
+
+    .albumCover {
+        max-height: 300px;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        width:100vh;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
