@@ -1,6 +1,12 @@
+.titleSection{
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+} 
+
 .cardContainerCraft {
-    padding-top: 200px;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -33,13 +39,13 @@
     padding-right: 10px;
 }
 
-.card > img {
+.card > a > img {
     height: 300px;
     width: 300px;
     filter: grayscale();
 }
 
-.card > img:hover {
+.card > a > img:hover {
     filter: saturate();
     transform: scale(105%);
     transition-duration: 200ms;
