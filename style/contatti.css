@@ -1,4 +1,10 @@
 .presentationContainer {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
+.presentation {
+    margin: 100px;
+    padding: 50px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(26, 26, 26);
+}
