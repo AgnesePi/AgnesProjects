@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+body.light .presentation {
+    background-color: #efeee9;;
+}
+
 .callMe > img {
     height: 200px;
 }

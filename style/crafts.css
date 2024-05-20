@@ -30,6 +30,10 @@
     gap: 5px;
 }
 
+body.light .cardTxt {
+    background-color: #efeee9;;
+}
+
 .cardTxt > p {
     margin: 0;
     color: rgb(26,26,26);

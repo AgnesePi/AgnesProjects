@@ -9,6 +9,7 @@ body {
     background-color: rgb(26, 26, 26);
     color: #FAF9F6;
     margin:0px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.light {
@@ -98,11 +99,18 @@ footer {
     padding-left: 70px;
     padding-right: 70px;
     margin-top:70px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.light footer {
     background-color: rgb(222, 222, 222);
     color:rgb(26, 26, 26);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer > div > p {

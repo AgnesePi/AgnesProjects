@@ -79,6 +79,7 @@ body.light .flowerpres{
     padding: 30px;
     background-color:#FAF9F6;
     position: relative;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.light .descriptionContainer {
