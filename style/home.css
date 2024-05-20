@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 60px;
     position: relative;
 }
 .firstImg {
@@ -11,6 +11,10 @@
     opacity: 50%;
     filter:grayscale();
 }
+body.light .firstImg {
+    opacity: 80%;
+}
+
 .title {
     position: absolute;
     font-weight: 900;
@@ -23,6 +27,11 @@
     position:absolute;
     margin-left: 800px;
 }
+
+body.light .flowerpres{
+    filter: invert();
+}
+
 .cardContainer {
     display: flex;
     justify-content: center;
@@ -69,10 +78,14 @@
     display: flex;
     justify-content: center;
     padding: 30px;
-    background-color:rgb(253, 253, 253);
+    background-color:#FAF9F6;
     position: relative;
-
 }
+
+body.light .descriptionContainer {
+    background-color: rgb(26, 26, 26);
+}
+
 .descriptionContainer > p{
     font-size: 20px;
     font-style: italic;
@@ -81,6 +94,9 @@
     color: rgb(26, 26, 26);
 }
 
+body.light .descriptionContainer > p {
+    color: #FAF9F6;
+}
 
 @media only screen and (max-width: 800px) {
     .cardContainer {

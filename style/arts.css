@@ -24,7 +24,7 @@
 } 
 
 .bottoneBack, .bottoneForward{
-   background-color:rgb(253, 253, 253);
+   background-color:#FAF9F6;
    height: 40px;
    width: 40px;
    margin-top: 250px;
@@ -33,7 +33,7 @@
 
 .bottoneBack:hover, .bottoneForward:hover {
     background-color: rgb(42, 142, 42);
-    color:rgb(253, 253, 253);
+    color:#FAF9F6;
     transition: ease-in 100ms;
     cursor:pointer;
 }
@@ -89,7 +89,7 @@
     width: 20px;
     height: 20px;
     display: block;
-    background-color:rgb(253, 253, 253);
+    background-color:#FAF9F6;
     border-radius: 50%;
 }
 

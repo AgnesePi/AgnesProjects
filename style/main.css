@@ -7,16 +7,30 @@
 
 body {
     background-color: rgb(26, 26, 26);
-    color: rgb(253, 253, 253);
+    color: #FAF9F6;
     margin:0px;
+}
+
+body.light {
+    background-color: #FAF9F6;
+    color: rgb(26, 26, 26);
 }
 
 a {
     text-decoration: none;
-    color: rgb(253, 253, 253);    
+    color: #FAF9F6;    
+}
+
+body.light a {
+    color: rgb(26, 26, 26);
 }
 
 a:hover {
+    transition: ease-in 100ms;
+    color: rgb(42, 142, 42);
+}
+
+body.light a:hover {
     transition: ease-in 100ms;
     color: rgb(42, 142, 42);
 }
@@ -42,6 +56,7 @@ nav {
     font-weight: 700;
     font-size: 20px;
 }
+
 .inUse {
     text-decoration: underline;
 }
@@ -58,13 +73,18 @@ H1 {
 footer {
     height: fit-content;
     background-color: rgb(18, 18, 18);
-    color: rgb(253, 253, 253);
+    color: #FAF9F6;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 70px;
     margin-top:70px;
+}
+
+body.light footer {
+    background-color: rgb(222, 222, 222);
+    color:rgb(26, 26, 26);
 }
 
 footer > div > p {
@@ -75,9 +95,17 @@ footer > div > p {
     height: 100px;
 }
 
+body.light .flowerlogo {
+    filter: invert();
+}
+
 .logo > img {
     height: 50px;
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+body.light .logo > img{
+    filter: invert();
 }
