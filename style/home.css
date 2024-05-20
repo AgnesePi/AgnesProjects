@@ -1,7 +1,6 @@
 .presentation {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding-top: 60px;
     position: relative;
@@ -25,7 +24,7 @@ body.light .firstImg {
 .flowerpres{
     height: 400px;
     position:absolute;
-    margin-left: 800px;
+    margin-left: 900px;
 }
 
 body.light .flowerpres{
@@ -98,7 +97,7 @@ body.light .descriptionContainer > p {
     color: #FAF9F6;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
     .cardContainer {
         padding-top: 150px;
     }
@@ -107,6 +106,17 @@ body.light .descriptionContainer > p {
         position: absolute;
         font-weight: 900;
         font-size: 90px;
-        padding-left: 20px;
+    }
+
+    .flowerpres {
+        height: 200px;
+        margin-left: 700px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .flowerpres {
+        height: 200px;
+        margin-left: 400px;
     }
 }
