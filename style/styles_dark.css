@@ -22,7 +22,7 @@ a:hover {
 }
 
 nav {
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,7 @@ nav {
     width: 500px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
 }
 .links > a {
     padding: 8px;
@@ -72,4 +73,11 @@ footer > div > p {
 
 .flowerlogo {
     height: 100px;
+}
+
+.logo > img {
+    height: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

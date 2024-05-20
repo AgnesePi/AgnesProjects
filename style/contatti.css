@@ -7,4 +7,22 @@
     padding: 50px;
     background-color: rgb(253, 253, 253);
     color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.callMe > img {
+    height: 200px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.txt > p {
+    margin: 0;
+    margin-left: 40px;
 }
