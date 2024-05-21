@@ -89,12 +89,7 @@
     width: 20px;
     height: 20px;
     display: block;
-    background-color:#FAF9F6;
+    background-color:rgb(222, 222, 222);
     border-radius: 50%;
-}
-
-.punto:hover {
-    background-color: rgb(42, 142, 42);
-    transition: ease-in 200ms;
     cursor:pointer;
 }
