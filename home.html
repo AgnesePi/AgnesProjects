@@ -3,35 +3,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agnes Projects</title>
-    <link rel="stylesheet" href="style/styles_dark.css">
-    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/home.css" id="stylesheet">
 </head>
 <body>
     <nav>
-        <div>lOGO HERE</div>
+        <div class="logo"><img src="img/logos/heartlogowhite.png" alt=""></div>
         <div class="links">
-            <a href="home.html" class="inUse">Home</a>
-            <a href="music.html">Music</a>
-            <a href="arts.html">Arts</a>
-            <a href="crafts.html">Crafts</a>
-            <a href="contatti.html">Chi sono?</a>
+            <div id="changeMode"> <img src="img/logos/theme.png" alt=""></div>
+            <a href="home.html" class="inUse"> <p>Home</p></a>
+            <a href="music.html"><p>Music</p></a>
+            <a href="arts.html"><p>Arts</p></a>
+            <a href="crafts.html"><p>Crafts</p></a>
+            <a href="contatti.html"><p>Contatti</p></a>
         </div>
     </nav>
     <div class="presentation">
         <img src="img/garden.jpeg" alt="garden" class="firstImg">
-        <div class="title">Agnes Projects</div>
-    </div>
+            <div class="title">Agnes Projects</div>
+            <img src="img/fioredark.png" alt="fioredark" class="flowerpres">
+        </div>
+        
     <div class="cardContainer">
         <div class="card">
-            <img src="img/music.jpeg" alt="basses" class="cardImg">
+            <a href="music.html"><img src="img/music.jpeg" alt="basses" class="cardImg"></a>
             <div> <p class="bold">Musica</p> <p>i progetti musicali finiti e in progress</p></div>
         </div>
         <div class="card">
-            <img src="img/arts.jpeg" alt="watercolor" class="cardImg">
+            <a href="arts.html"><img src="img/arts.jpeg" alt="watercolor" class="cardImg"></a>
             <div> <p class="bold">Arts</p> <p>disegni e arti figurative</p></div>
         </div>
         <div class="card">
-            <img src="img/crafts.jpeg" alt="knit" class="cardImg">
+            <a href="crafts.html"><img src="img/crafts.jpeg" alt="knit" class="cardImg"></a>
             <div> <p class="bold">Crafts</p> <p>arti tessili varie</p> </div>
         </div>
     </div>
@@ -48,8 +51,9 @@
             <p>Agnese Pinfari - 2024, corso di Design della Comunicazione, Politecnico di Milano</p>
         </div>
         <div>
-            <p>illustrazione qua</p>
+            <img src="img/fioredark.png" alt="flowerlogo" class="flowerlogo">
         </div>
     </footer>
+    <script src="js/light_dark.js"></script>
 </body> 
 </html>

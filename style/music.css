@@ -1,11 +1,15 @@
 .albumCard{
-    /* padding-top: 100px; */
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
+    height: fit-content;
 }
 
 .albumCover {
+    max-height: 300px;
+}
+
+.albumCover > img {
     height: 300px;
 }
 .albumCover:hover {
@@ -17,10 +21,14 @@
     display: flex;
     flex-direction: column;
     padding-left: 50px;
-    background-color: rgb(253, 253, 253);
+    background-color: #FAF9F6;
     color: rgb(26, 26, 26);
     padding-top: 50px;
     padding-right: 50px;
+}
+
+body.light .albumDescription {
+    background-color: #efeee9;
 }
 
 .date {
@@ -38,6 +46,23 @@
 
 .WIP {
     padding-left: 100px;
-    padding-top: 50px;
-    display:inline-block
+    padding-top: 100px;
+    display:inline-block;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .albumCard {
+        flex-direction: column;
+    }
+
+    .albumCover {
+        max-height: 300px;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        width:100vh;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }

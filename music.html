@@ -3,25 +3,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music</title>
-    <link rel="stylesheet" href="style/styles_dark.css">
+    <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/music.css">
 </head>
 <body>
     <nav>
-        <div>lOGO HERE</div>
+        <div class="logo"><img src="img/logos/heartlogowhite.png" alt=""></div>
         <div class="links">
-            <a href="home.html">Home</a>
-            <a href="music.html" class="inUse">Music</a>
-            <a href="arts.html">Arts</a>
-            <a href="crafts.html">Crafts</a>
-            <a href="contatti.html">Chi sono?</a>
+            <div id="changeMode"> <img src="img/logos/theme.png" alt=""></div>
+            <a href="home.html"> <p>Home</p></a>
+            <a href="music.html" class="inUse"><p>Music</p></a>
+            <a href="arts.html"><p>Arts</p></a>
+            <a href="crafts.html"><p>Crafts</p></a>
+            <a href="contatti.html"><p>Contatti</p></a>
         </div>
     </nav>
     <div class="WIP">
-        <H2>Work in Progress</H2>
+        <H1>Work in Progress</H1>
     </div>
     <div class="albumCard">
-            <img src="img/stramina.jpeg" alt="agnello" class="albumCover">
+            <div class="albumCover">
+                <img src="img/stramina.jpeg" alt="agnello" >
+            </div>
             <div class="albumDescription">
             <h1>Straminavintin</h1>
             <p class="date">(data di uscita da destinarsi)</p>
@@ -29,16 +32,18 @@
                 Disco in corso di realizzazione. Si tratta di un lavoro a cui sto lavorando con il gruppo, 
                 per ora chiamato con lo stesso nome del disco, consistente di me, Vucossa Alessandro (il mio ragazzo)
                 e Vucossa Alberto (Bebo). Le influenze sono Punk anni '80, Post punk , certi dischi di This Heat e Minutemen... 
-                Non abbiamo grandi pretese di qualità per lasciare spazio alla creatività artistica. Restate connessi per news!
+                Lasciamo spazio alla creatività artistica. Restate connessi per news!
             </p>
             <p>(Copertina provvisoria)</p>
             </div>
     </div>
     <div class="WIP">
-        <H2>Pubblicati</H2>
+        <h1>Pubblicati</h1>
     </div>
     <div class="albumCard">
-        <img src="img/agnello.png" alt="agnello" class="albumCover">
+        <div  class="albumCover">
+            <img src="img/agnello.png" alt="agnello">
+        </div>
         <div class="albumDescription">
             <h1>Agnello Sacrificale</h1>
             <p class="date">Agosto 2022</p>
@@ -57,8 +62,9 @@
             <p>Agnese Pinfari - 2024, corso di Design della Comunicazione, Politecnico di Milano</p>
         </div>
         <div>
-            <p>illustrazione qua</p>
+            <img src="img/fioredark.png" alt="flowerlogo" class="flowerlogo">
         </div>
     </footer>
+    <script src="js/light_dark.js"></script>
 </body>
 </html>

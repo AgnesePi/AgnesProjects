@@ -1,0 +1,56 @@
+.titleSection{
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+} 
+
+.cardContainerCraft {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card {
+    width: 300px;
+}
+
+.cardTxt {
+    height: 100px;
+    background-color: #FAF9F6;
+    padding:0px;
+    width: inherit;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+body.light .cardTxt {
+    background-color: #efeee9;;
+}
+
+.cardTxt > p {
+    margin: 0;
+    color: rgb(26,26,26);
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card > a > img {
+    height: 300px;
+    width: 300px;
+    filter: grayscale();
+}
+
+.card > a > img:hover {
+    filter: saturate();
+    transform: scale(105%);
+    transition-duration: 200ms;
+}
