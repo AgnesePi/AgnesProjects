@@ -23,19 +23,22 @@
     scroll-snap-align: center;
 } 
 
-.bottoneBack, .bottoneForward{
-   background-color:#FAF9F6;
+.bottoneBack, .bottoneForward {
    height: 40px;
    width: 40px;
    margin-top: 250px;
    border-style: none;
+   cursor:pointer;
+   background-color: transparent;
 }
 
-.bottoneBack:hover, .bottoneForward:hover {
-    background-color: rgb(42, 142, 42);
-    color:#FAF9F6;
-    transition: ease-in 100ms;
-    cursor:pointer;
+.bottoneBack > img, .bottoneForward > img {
+    height: inherit;
+    filter: invert();
+}
+
+body.light .bottoneBack > img, .bottoneForward > img  {
+    filter: initial;
 }
 
 .bottoneBack {
@@ -58,7 +61,7 @@
 }
 
 .slideshow {
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,12 +70,12 @@
     margin-bottom: 10px;
 }
 .slide {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     display: none;
 }
 .immagine {
-    height: 600px;
+    height: 500px;
     width: inherit;
     display: flex;
     justify-content: center;
