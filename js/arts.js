@@ -10,6 +10,9 @@ bottoneBack.addEventListener('click', function() {
 bottoneForward.addEventListener('click', function() {
     itemlist.scrollLeft += (itemWitdh + padding)
 })
+// al clic del bottone, viene attivato uno scorrimento di lunghezza costante (itemWidth+padding) 
+// inizialmente stabilita//
+
 
 let slideCorrente = 1;
 
