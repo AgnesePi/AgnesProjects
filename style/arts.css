@@ -4,38 +4,38 @@
     padding-left: 90px;
     padding-right: 90px;
 }
+
 .itemList{
     display: flex;
     max-width: 100%;
     width: 100%;
     scroll-behavior:smooth;
-    overflow: auto;
-    scroll-snap-type: x mandatory ;
+        /* specifica il comportamento dello scorrimento, in questo caso non a scatto */
+    overflow: hidden; 
+        /* l'overflow è nascosto */
     gap: 50px;
 }
 
-.itemList::-webkit-scrollbar {
-    display: none;
-  }
-
 .artImg{
     height: 500px;
-    scroll-snap-align: center;
 } 
 
-.bottoneBack, .bottoneForward{
-   background-color:#FAF9F6;
+.bottoneBack, .bottoneForward {
    height: 40px;
    width: 40px;
    margin-top: 250px;
    border-style: none;
+   cursor:pointer;
+   background-color: transparent;
 }
 
-.bottoneBack:hover, .bottoneForward:hover {
-    background-color: rgb(42, 142, 42);
-    color:#FAF9F6;
-    transition: ease-in 100ms;
-    cursor:pointer;
+.bottoneBack > img, .bottoneForward > img {
+    height: inherit;
+    filter: invert();
+}
+
+body.light .bottoneBack > img , body.light .bottoneForward > img {
+    filter: initial;
 }
 
 .bottoneBack {
@@ -58,28 +58,28 @@
 }
 
 .slideshow {
-    height: 600px;
+    height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 5px;
     margin-bottom: 10px;
 }
 .slide {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     display: none;
 }
 .immagine {
-    height: 600px;
+    height: 500px;
     width: inherit;
     display: flex;
     justify-content: center;
 }
 
 .punti{
-    padding-top: 70px;
+    padding-top: 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -92,4 +92,11 @@
     background-color:rgb(222, 222, 222);
     border-radius: 50%;
     cursor:pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

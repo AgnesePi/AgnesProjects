@@ -8,7 +8,6 @@
     background-color: #FAF9F6;
     color: rgb(26, 26, 26);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -24,9 +23,26 @@ body.light .presentation {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
 } 
 
 .txt > p {
     margin: 0;
     margin-left: 40px;
+}
+
+.aboutLink {
+    margin: 0;
+    margin-left: 40px;
+    color: rgb(26, 26, 26);
+}
+
+@media only screen and (max-width: 780px) {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 }

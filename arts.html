@@ -5,10 +5,11 @@
     <title>Arts</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/arts.css">
+    <link rel="icon" href="img/logos/heartlogo.png">
 </head>
 <body>
     <nav>
-        <div class="logo"><img src="img/logos/heartlogowhite.png" alt=""></div>
+        <a href="home.html"><div class="logo"><img src="img/logos/heartlogowhite.png" alt="logo"></div></a>
         <div class="links">
             <div id="changeMode"> <img src="img/logos/theme.png" alt=""></div>
             <a href="home.html"> <p>Home</p></a>
@@ -18,12 +19,13 @@
             <a href="contatti.html"><p>Contatti</p></a>
         </div>
     </nav>
+
     <main>
         <!-- sezione slideshow -->
         <div class="titleSection"><h1>Inchiostro su carta</h1></div>
         <div class="container">
             <div class="carousel">
-                <button id="bottoneBack" class="bottoneBack"> <p class="bold"> < </p> </button>
+                <button id="bottoneBack" class="bottoneBack"> <img src="img/logos/sx.png" alt="sx"> </button>
                 <div id="itemList" class="itemList">
                     <img src="img/artsImg/05.jpeg" alt="" id="item" class="artImg">
                     <img src="img/artsImg/06.jpeg" alt="" id="item" class="artImg">
@@ -32,47 +34,50 @@
                     <img src="img/artsImg/11.jpeg" alt="" id="item" class="artImg">
                     <img src="img/artsImg/13.jpeg" alt="" id="item" class="artImg">
                 </div>
-                <button id="bottoneForward" class="bottoneForward"><p class="bold"> > </p></button>
+                <button id="bottoneForward" class="bottoneForward"> <img src="img/logos/dx.png" alt="dx"> </button>
             </div>
         </div>
+
         <!-- sezione slideshow click -->
         <div class="titleSection"><h1>Dipinti</h1></div>
         <div class="slideshow">
+
             <div class="prev" onclick=""><img src="" alt=""></div>
             <div class="content">
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/19_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/19_paint.jpeg" alt="img01"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/03_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/03_paint.jpeg" alt="img02"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/04_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/04_paint.jpeg" alt="img03"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/12_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/12_paint.jpeg" alt="img04"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/17_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/17_paint.jpeg" alt="img05"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/18_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/18_paint.jpeg" alt="img06"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/22_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/22_paint.jpeg" alt="img07"></div>
                 </div>
 
                 <div class="slide">
-                    <div class="immagine"><img src="img/artsImg/20_paint.jpeg" alt=""></div>
+                    <div class="immagine"><img src="img/artsImg/20_paint.jpeg" alt="img08"></div>
                 </div>
             </div>
         </div>
+
         <div class="punti">
             <span class="punto" onclick="setSlide(0)"></span>
             <span class="punto" onclick="setSlide(1)"></span>
@@ -84,6 +89,7 @@
             <span class="punto" onclick="setSlide(7)"></span>
         </div>
     </main>
+
     <footer>
         <div>
             <p class="bold">Sviluppato da</p>
@@ -93,6 +99,7 @@
             <img src="img/fioredark.png" alt="flowerlogo" class="flowerlogo">
         </div>
     </footer>
+
     <script src="js/arts.js"></script>
     <script src="js/light_dark.js"></script>
 </body>

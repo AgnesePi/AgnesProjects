@@ -25,6 +25,7 @@
     color: rgb(26, 26, 26);
     padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 body.light .albumDescription {
@@ -44,7 +45,7 @@ body.light .albumDescription {
     transition: ease-in 100ms;
 }
 
-.WIP {
+.Subtitle {
     padding-left: 100px;
     padding-top: 100px;
     display:inline-block;
@@ -54,6 +55,8 @@ body.light .albumDescription {
 @media only screen and (max-width: 800px) {
     .albumCard {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .albumCover {

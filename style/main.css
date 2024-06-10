@@ -9,7 +9,7 @@ body {
     background-color: rgb(26, 26, 26);
     color: #FAF9F6;
     margin:0px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 body.light {
@@ -22,6 +22,7 @@ a {
     color: #FAF9F6; 
     display: flex;
     align-content: center;   
+    transition: color 0.2s;
 }
 
 #changeMode{
@@ -99,7 +100,7 @@ footer {
     padding-left: 70px;
     padding-right: 70px;
     margin-top:70px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 body.light footer {
