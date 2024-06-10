@@ -60,7 +60,7 @@ body.light .bottoneBack > img , body.light .bottoneForward > img {
 .slideshow {
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 5px;
@@ -79,7 +79,7 @@ body.light .bottoneBack > img , body.light .bottoneForward > img {
 }
 
 .punti{
-    padding-top: 70px;
+    padding-top: 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
