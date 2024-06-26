@@ -28,8 +28,8 @@ function setSlide(n) {
     slides[n].style.display = "block";
     punti[slideCorrente].style.backgroundColor = 'rgb(222, 222, 222)'
     punti[n].style.backgroundColor = 'rgb(42, 142, 42)';
-    // il punto della slide corrente [n] mantiene il colore verde fin tanto che ci troviamo sulla relativa slide
-    // altrimenti [slideCorrente], rimane bianco.
+    // il punto corrispondente alla slide visualizzata [n] mantiene il colore verde fin tanto che ci troviamo 
+    // sulla relativa slide, altrimenti [slideCorrente], rimane bianco.
     slideCorrente = n
 }
 
