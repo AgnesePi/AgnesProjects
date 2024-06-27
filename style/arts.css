@@ -9,10 +9,11 @@
     display: flex;
     max-width: 100%;
     width: 100%;
-    scroll-behavior:smooth;
         /* specifica il comportamento dello scorrimento, in questo caso non a scatto */
-    overflow: hidden; 
+    scroll-behavior:smooth;
         /* l'overflow è nascosto */
+    overflow: hidden; 
+     
     gap: 50px;
 }
 
